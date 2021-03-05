@@ -52,7 +52,7 @@ header h1 {
 main .colors {
   background-color: #fcfcfc;
   padding: 32px;
-  max-width: 35%;
+  max-width: 50%;
   margin: 50px auto;
   border-radius: 20px;
   box-shadow: 0px 12px 32px 0px #00000020;
@@ -69,8 +69,8 @@ main .colors .theme-colors {
 }
 
 main .colors .theme-colors li {
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   list-style-type: none;
   cursor: pointer;
 }
@@ -131,5 +131,9 @@ footer p {
   }
   main .colors {
     max-width: 100%;
+  }
+  main .colors .theme-colors li{
+    height: 20px;
+    width: 20px;
   }
 }
